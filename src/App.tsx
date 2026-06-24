@@ -1,9 +1,9 @@
-import EventHandling from "./components/EventHandling";
+import Count from "./components/Count";
 
 const App = () => {
   return (
     <div>
-      <EventHandling />
+      <Count />
     </div>
   );
   // const user: Info = {
