@@ -1,9 +1,9 @@
-import Count from "./components/Count";
+import Counter from "./components/Reducer/Counter";
 
 const App = () => {
   return (
     <div>
-      <Count />
+      <Counter />
     </div>
   );
   // const user: Info = {
