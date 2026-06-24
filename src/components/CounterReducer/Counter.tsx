@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import { CounterReducer } from "./CounterReducer";
+import { CounterReducer, type State } from "./CounterReducer";
 
 const buttonStyle = {
   backgroundColor: "black",
@@ -9,7 +9,7 @@ const buttonStyle = {
   borderRadius: "8px",
   cursor: "pointer",
 };
-const initialState = {
+const initialState: State = {
   count: 0,
 };
 
